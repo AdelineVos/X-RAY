@@ -1,0 +1,33 @@
+#container {
+    border: 5px solid black;
+    width: 800px;
+    height: 545px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+#top {
+    position: absolute;
+    z-index: 10;
+    overflow: hidden;
+    width: 50%;
+}
+
+#bottom {
+    position: absolute;
+    z-index: 1;
+}
+
+img {
+    width: 790px;
+    height: 535px;
+}
+
+#bar {
+    height: 535px;
+    width: 10px;
+    background: black;
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+}
